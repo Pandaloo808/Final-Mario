@@ -379,7 +379,7 @@ function die(character){
     character.velocity.y-=2;
     if(character.liveNumber>0)
     {
-      mario_die.play();
+    //  mario_die.play();
     }
 }
 
