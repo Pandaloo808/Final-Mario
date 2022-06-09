@@ -377,7 +377,7 @@ function die(character){
     character.status="dead";
     character.changeAnimation('dead');
     character.velocity.y-=2;
-    if(charachter.liveNumber>0)
+    if(character.liveNumber>0)
     {
       mario_die.play();
     }
